@@ -1,7 +1,11 @@
+import Hero from '../components/Hero';
+
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <section className="flex flex-col w-full place-self-center justify-center items-center max-w-screen-xl h-full">
+      <Hero />
+    </section>
+  );
 }
 
-export default Home
+export default Home;
